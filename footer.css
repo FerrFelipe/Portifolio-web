@@ -1,0 +1,46 @@
+.final-back{
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+.final-back::before{
+    display: block;
+    content: '';
+    width: 150px;
+    height: 100px;
+    background: url('Group\ 24.svg') no-repeat center;
+    position: absolute;
+    top: -50px;
+}
+#final{
+    max-width: 1200px;
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20%;
+    grid-row-gap: 120px;
+}
+#escrita-fim{
+    max-width: 30ch;
+    font-size: 24px;
+    font-weight: normal;
+}
+#redes{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#redes a{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+footer{
+    padding-bottom: 40px;
+    font-weight: normal;
+    color: var(--c13);
+    font-size: 16px;
+}

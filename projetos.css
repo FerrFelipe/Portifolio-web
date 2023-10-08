@@ -1,0 +1,73 @@
+.base{
+    max-width: 1200px;
+    padding: 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+    gap: 12%;
+    margin-bottom: 80px;
+}
+.base h1{
+    color: var(--c1);
+    margin: 0px;
+    font-size: 200px;
+    word-wrap: break-word;
+    max-width: 400px;
+    line-height: 144px;
+}
+#escrita-proj{
+    max-width: 500px;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+.box{
+    background: var(--b2);
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
+}
+.box p {
+    margin-top: 10px;
+    max-width: 300px;
+    font-size: 14px;
+    align-self: center;
+}
+.box ul{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+.box li{
+    align-self: center;
+    font-size: 14px;
+    padding: 5px 10px;
+    background: var(--c4);
+    border-radius: 5px;
+}
+.box::before{
+    display: block;
+    content: '';
+    background: linear-gradient(#1B83BE, #3EAFEF);
+    width: 54px;
+    height: 4px;
+    top: 28px;
+    left: -32px;
+    position: absolute;
+}
+.surfbot{
+    background: var(--b4);
+}
+.bikcraft{
+    margin-bottom: 20px;
+}
+.surfbot{
+    margin-bottom: 20px;
+}
+.box span{
+    position: absolute;
+    top: 20px;
+    left: -70px;
+}

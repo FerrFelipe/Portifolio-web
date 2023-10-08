@@ -1,0 +1,30 @@
+@import './global.css';
+@import './header.css';
+@import './introducao.css';
+@import './projetos.css';
+@import './formacao.css';
+@import './footer.css';
+
+html{
+    background-color: #F3F3F3;
+    font-family: "Fira Sans";
+}
+:root{
+    --c1: rgba(221, 221, 221, 1);
+    --c2: rgba(204, 204, 204, 1);
+    --c3: rgba(191, 191, 191, 1);
+    --c4: rgba(179, 179, 179, 1);
+    --c8: rgba(128, 128, 128, 1);
+    --c9: rgba(115, 115, 115, 1);
+    --c10: rgba(102, 102, 102, 1);
+    --c11: rgba(89, 89, 89, 1);
+    --c12: rgba(77, 77, 77, 1);
+    --c13: rgba(64, 64, 64, 1);
+    --c14: rgba(38, 38, 38, 1);
+    --b2: rgba(194, 200, 204, 1);
+    --b4: rgba(152, 169, 178, 1);
+}
+a{
+    text-decoration: none;
+    color: var(--c12);
+}

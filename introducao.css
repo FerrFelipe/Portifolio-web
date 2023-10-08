@@ -1,0 +1,32 @@
+.introducao{
+    max-width: 1200px;
+    padding: 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+    gap: 20%;
+}
+.introducao img{
+    min-width: 400px;
+}
+.introducao #titulo{
+    align-self: center;
+    font-size: 32px;
+}
+#titulo h1{
+    word-break: break-all;
+    position: relative;
+    font-size: 4.5rem;
+    line-height: 1.125;
+}
+#titulo h1::before {
+    display: block;
+    content: '';
+    width: 150px;
+    height: 100px;
+    background: url('Group\ 24.svg') no-repeat center;
+    top:-15px;
+    left: -50px;
+    z-index: -1;
+    position: absolute;
+  }

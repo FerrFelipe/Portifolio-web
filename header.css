@@ -1,0 +1,18 @@
+.header{
+    max-width: 1200px;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.header #logo{
+    font-size: 3rem;
+}
+.header #menu{
+    display: flex;
+    gap: 3rem;
+    font-size: 18px;
+}

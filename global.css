@@ -1,0 +1,24 @@
+body{
+    font-family: "Fira Sans";
+    margin: 0px;   
+}
+h1{
+    color: var(--c14);
+}
+h3{
+    margin: 0px;   
+    font-size: 18px;
+}
+p{
+    margin: 0px;
+    color: var(--c12);
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+img{
+    max-width: 100%;
+    display: block;
+}
