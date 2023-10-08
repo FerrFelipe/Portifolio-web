@@ -5,6 +5,129 @@
 @import './formacao.css';
 @import './footer.css';
 
+@media(max-width:1255px){
+    .introducao{
+        gap: 12%;
+    }
+    .introducao img{
+        min-width: 300px;
+    }
+    #titulo h1{
+        font-size: 64px;
+    }
+    #titulo p{
+        font-size: 24px;
+    }
+    .base h1{
+        max-width: 300px;
+        font-size: 150px;
+    }
+}
+@media(max-width:1024px){
+    #titulo h1{
+        font-size: 42px;
+    }
+    #titulo h1::before{
+        top: -30px;
+    }
+    #titulo p{
+        font-size: 18px;
+    }
+}
+@media(max-width:768px){
+    .box::before{
+        width: 27px;
+        height: 4px;
+        top: 28px;
+        left: -12px;
+    }
+    .box span{
+        top: 10px;
+        left: -15px;
+    }
+    .curint h3::before{
+        width: 140px;
+        height: 140px;
+        left: -40px;
+        top: -30px;
+        background: url('school_FILL0_wght400_GRAD0_opsz24\ 1\ copy.svg') no-repeat center;
+    }
+    .idiom h3::before{
+        width: 140px;
+        height: 140px;
+        left: -35px;
+        top: -30px;
+        background: url('translate_FILL0_wght400_GRAD0_opsz24\ 1\ copy.svg') no-repeat center;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    #logo{
+        text-align: center;
+    }
+    .header #menu{
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .introducao{
+        grid-template-columns: 1fr;
+    }
+    .introducao img{
+        display: none;
+    }
+    #titulo h1{
+        font-size: 64px;
+    }
+    .base{
+        gap: 0px;
+        max-width: auto;
+        grid-template-columns: 1fr;
+    }
+    .base h1{
+        max-width: none;
+        font-size: 75px;
+    }
+    #final{
+        grid-template-columns: 1fr;
+        justify-items: left;
+        grid-row-gap: 60px;
+
+    }
+    .form{
+        display: grid;
+        gap: 0px;
+        justify-content: right;
+    }
+    .final-back::before{
+        transform: scaleX(-1);
+        right: 0%;
+    }
+}
+@media(max-width:500px){
+    #titulo h1{
+        font-size: 48px;
+    }
+    .base h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:380px){
+    .header #menu{
+        gap: 5px;
+    }
+    #titulo h1{
+        font-size: 42px;
+    }
+    .base h1{
+        font-size: 50px;
+    }
+    #redes a{
+        font-size: 24px;
+    }
+}
 html{
     background-color: #F3F3F3;
     font-family: "Fira Sans";
@@ -19,7 +142,7 @@ html{
     --c10: rgba(102, 102, 102, 1);
     --c11: rgba(89, 89, 89, 1);
     --c12: rgba(77, 77, 77, 1);
-    --c13: rgba(64, 64, 64, 1);
+    --c13: #404040;
     --c14: rgba(38, 38, 38, 1);
     --b2: rgba(194, 200, 204, 1);
     --b4: rgba(152, 169, 178, 1);
@@ -27,4 +150,28 @@ html{
 a{
     text-decoration: none;
     color: var(--c12);
+}
+body{
+    font-family: "Fira Sans";
+    margin: 0px;   
+}
+h1{
+    color: var(--c14);
+}
+h3{
+    margin: 0px;   
+    font-size: 18px;
+}
+p{
+    margin: 0px;
+    color: var(--c12);
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+img{
+    max-width: 100%;
+    display: block;
 }

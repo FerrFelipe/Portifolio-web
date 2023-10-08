@@ -1,5 +1,5 @@
 .introducao{
-    max-width: 1200px;
+    max-width: 90%;
     padding: 40px 0px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -9,14 +9,14 @@
 .introducao img{
     min-width: 400px;
 }
-.introducao #titulo{
+#titulo{
     align-self: center;
     font-size: 32px;
 }
 #titulo h1{
     word-break: break-all;
     position: relative;
-    font-size: 4.5rem;
+    font-size: 72px;
     line-height: 1.125;
 }
 #titulo h1::before {

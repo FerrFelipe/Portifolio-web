@@ -1,5 +1,6 @@
 #background{
     background: var(--c14);
+    margin: 0px 0px;
 }
 .formacao{
     padding: 120px 0px;
@@ -88,6 +89,7 @@
 }
 #cisco{
     grid-column: 2;
+    justify-self: right;
     color: var(--c10);
 }
 .cursos{

@@ -1,5 +1,5 @@
 .base{
-    max-width: 1200px;
+    max-width: 90%;
     padding: 40px 0px;
     display: grid;
     grid-template-columns: 1fr 2fr;
