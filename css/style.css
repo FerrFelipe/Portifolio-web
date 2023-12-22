@@ -50,14 +50,14 @@
         height: 140px;
         left: -40px;
         top: -30px;
-        background: url('./svgAndImgs/school_FILL0_wght400_GRAD0_opsz24\ 1\ copy.svg') no-repeat center;
+        background: url('../svgAndImgs/school_FILL0_wght400_GRAD0_opsz24\1\copy.svg') no-repeat center;
     }
     .idiom h3::before{
         width: 140px;
         height: 140px;
         left: -35px;
         top: -30px;
-        background: url('./svgAndImgs/translate_FILL0_wght400_GRAD0_opsz24\ 1\ copy.svg') no-repeat center;
+        background: url('../svgAndImgs/translate_FILL0_wght400_GRAD0_opsz24\1\copy.svg') no-repeat center;
     }
     .header{
         display: grid;
